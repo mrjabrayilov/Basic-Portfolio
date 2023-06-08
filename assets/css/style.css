@@ -110,7 +110,7 @@ section {
     
 } */
 
-
+/* 
 .about {
     width: 100%;
     padding: 78px 0px;
@@ -149,7 +149,6 @@ section {
     text-transform: capitalize;
     margin-bottom: 25px;
     letter-spacing: 2px;
-
 }
 
 button {
@@ -160,5 +159,37 @@ button {
     font-weight: bold;
     padding: 13px 30px;
     border-radius: 30px;
+} */
 
+.about {
+    border: 2px solid black;
+    height: 60%;
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    background-color: white;
 }
+
+
+.about-header {
+    font-family: "Montserrat";
+    font-size: 25px;
+    color:rgb(73, 154, 127)
+    display: table-cell;
+    position: relative;
+    left: 5%;
+    top: 5%;
+    /* background-color: black; */
+    color:rgb(73, 154, 127)
+}
+
+.about img {
+    height: 200px;
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    
+}
+
