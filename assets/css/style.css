@@ -6,6 +6,9 @@
     box-sizing: border-box;
     /* font-family: "Josefin Sans", sans-serif; */
 }
+h1 {font-family: 'Georgia', Times, Times New Roman, serif; 
+}
+
 
 body {
     background-image: url(../images/background.jpg);
@@ -310,4 +313,51 @@ input[type=submit]:hover {
 label {
     font-size: 20px;
     font-family: "Montserrat";
+}
+
+
+/* This section will be for the portfolio file */
+.portfolio {
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    background-color: white;
+    border: 1.5px solid gray;
+    top: 20%;
+    left: 10%;
+}
+
+.portfolio-header {
+    position: relative;
+    top: 4%;
+    left: 7%;
+    font-family: "Montserrat";
+    font-size: 23px;
+    color:rgb(73, 154, 127)
+}
+
+.hangman .python {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    height: 250px;
+}
+
+.hangman .telegram {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    height: 250px;
+    width: 250px;
+    
+}
+
+.hangman .atm {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    height: 250px;
+    width: 250px;
+
+    
 }
