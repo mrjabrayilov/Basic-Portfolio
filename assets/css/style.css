@@ -23,7 +23,7 @@ body {
 }
 
 .inner-header {
-    width: 1400px;
+    width: 1233px;
     height: 100%;
     display: block;
     margin: 0 auto;
@@ -248,4 +248,66 @@ button {
 
 .img-additional {
     padding-right: 0px;
+}
+
+
+
+
+
+/* After this all will be second page which is contact me list page */
+.contact-form {
+    height: 80%;
+    width: 40%;
+    position: absolute;
+    background-color: white;
+    border: 1.5px solid gray;
+    top: 20%;
+    left: 10%;
+}
+
+.contact-form-header {
+    position: relative;
+    top: 4%;
+    left: 7%;
+    font-family: "Montserrat";
+    font-size: 23px;
+    color:rgb(73, 154, 127)
+}
+
+.contact-form-container {
+    position: relative;
+    top: 5%;
+    left: 4%;
+    border-radius: 5px;
+    
+    padding: 20px;
+}
+
+input[type=text], textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    mergin-top: 6px;
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+label {
+    font-size: 20px;
+    font-family: "Montserrat";
 }
